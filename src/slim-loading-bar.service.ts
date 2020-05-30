@@ -5,7 +5,7 @@
 import {Injectable} from '@angular/core';
 
 import {isPresent} from './slim-loading-bar.utils';
-import {Subject} from 'rxjs/Subject';
+import {Subject} from 'rxjs';
 import {Observable} from 'rxjs/Observable';
 
 export enum SlimLoadingBarEventType {
